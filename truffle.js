@@ -6,6 +6,12 @@ module.exports = {
       host: "127.0.0.1",
       port: 7545,
       network_id: "*" // Match any network id
+    },
+    ropsten: {
+      provider: new HDWalletProvider(mnemonic, "https://ropsten.infura.io/"),
+      gas: 4641592,
+      gasPrice: 65000000000,
+      network_id: 3
     }
   },
   solc: {
