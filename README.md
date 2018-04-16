@@ -1,5 +1,7 @@
 # pet-shop-tutorial 
 # Command
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/NextZeus/pet-shop-tutorial.svg)](https://greenkeeper.io/)
   - Compile:        truffle compile
   - Migrate:        truffle migrate
   - Test contracts: truffle test
